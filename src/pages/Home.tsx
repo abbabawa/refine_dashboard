@@ -13,7 +13,7 @@ const Home = () => {
         <PieChart title="Tota Customers" value={5684} series={[75, 25]} colors={['#275be8', '#c4e8ef']} />
         <PieChart title="Total Cities" value={555} series={[75, 25]} colors={['#475be8', '#e4e8ef']} />
       </Box>
-      <Stack mt="25px" width={"100%"} direction={{xs: 'column', lg: 'row'}}>
+      <Stack mt="25px" width={"100%"} direction={{xs: 'column', lg: 'row'}} gap={2}>
         <TotalRevenue />
         <PropertyReferrals />
       </Stack>
